@@ -1,11 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,500;1,300&family=Zeyada&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+
+
 body {
     width: 1000px;
+    border: solid 4px rgb(131, 23, 41);
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(247, 211, 181);
+    font-size: 1rem;
+    line-height: 1.4em;
+}
+
+h1, h2, p, ul, ol {
+    margin-bottom: 1em;
 }
 
 h1 {
     color: darkred;
+    font-family: 'Lobster', cursive;
+    text-align: center;
 }
 
 h2 {
@@ -14,4 +35,17 @@ h2 {
 
 p {
     font-weight: bold;
+}
+
+ul, ol {
+    line-height: 1.4em;
+    padding-left: 1em   ;
+}
+
+li{
+    line-height: 1.4em;
+}
+
+div {
+    text-align: center;
 }
